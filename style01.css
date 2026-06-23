@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(231, 233, 223);
+    margin: 40px;
+}
+.recuadro1{
+    background-color: rgb(186, 196, 35);
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.recuadro1:hover{
+   /* transform: translate(25px,10px);*/
+/*transform: translate(120px);*/
+     /*transform: translate(-20px);/*
+      /*transform:rotate(-360deg);*/
+     /* transform: scale(0.8,-1.5);*/
+   
+    /*transform: skew(15deg,20deg);*/
+    transform: rotate(15deg)scale(0.9,0.6)translate(10px,10px)skew(5deg,5deg);
+    /*opacity: 0,1;*/
+    color:rgb(250, 254, 109);
+     transition: 5s;
+
+
+}

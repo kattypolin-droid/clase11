@@ -1,0 +1,12 @@
+.cuadrado{
+    width:100px;
+    height:100px;
+    background:green;
+    margin:20px;
+    transition:1s;
+}
+
+.cuadrado:hover{
+    background:red;
+    transform:rotate(180deg);
+}

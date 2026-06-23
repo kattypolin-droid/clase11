@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:40px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:inline;
+}
+
+li a{
+    display:inline-block;
+    text-decoration:none;
+    padding:10px;
+    background-color:deeppink;
+    color:white;
+    border-radius:10px;
+    transition:transform 1s;
+}
+
+li a:hover{
+    transform:scale(1.2);
+}

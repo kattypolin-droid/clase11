@@ -1,0 +1,10 @@
+.caja{
+    width:150px;
+    height:150px;
+    background:purple;
+    transition:1s;
+}
+
+.caja:hover{
+    transform:translate(100px,50px);
+}

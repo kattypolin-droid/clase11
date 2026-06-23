@@ -1,0 +1,10 @@
+.cuadro{
+    width:200px;
+    height:200px;
+    background:blue;
+    transition:2s;
+}
+
+.cuadro:hover{
+    transform:rotate(45deg);
+}

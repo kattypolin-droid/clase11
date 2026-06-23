@@ -1,0 +1,8 @@
+.tarjeta{
+    width:250px;
+    padding:20px;
+    margin:20px;
+    border-radius:20px;
+    background:lightblue;
+    box-shadow:5px 5px 10px gray;
+}
